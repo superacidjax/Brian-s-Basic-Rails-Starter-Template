@@ -1,0 +1,22 @@
+h1. This is the Brian Dear basic rails app template.
+
+p. Rather than continually going through the same basic config every time I create a new Rails 3.2 application, I created some boilerplate code that can form the basis of other projects.
+
+p. The Gemfile doesn't include everything, but it does include the gems that I use on every project.
+
+* hashrocket-rails (This includes haml-rails and decent_exposure)
+* pg
+* capybara
+* dirty -- runs uncommitted tests for things not yet committed
+* heroku
+* pry-nav
+* pry-rails
+* spork
+* rails-erd
+* sass-rails
+* coffee-rails
+* uglifier
+
+p. There are a few other pieces of goodness, for example a UI controller/view that provides a safe place to test views before implementing them in the production app.
+
+p. Also there's also an html5 shiv, flash rendering, a head yield as well as doing some organization of the stylesheets.
