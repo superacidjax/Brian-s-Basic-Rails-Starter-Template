@@ -1,0 +1,24 @@
+development:
+  adapter: postgresql
+  database: better_twitter_dev
+  username: 
+  password:
+  host: localhost
+  
+test: &TEST
+  adapter: postgresql
+  database: better_twitter_test
+  username: 
+  password:
+  host: localhost
+  min_messages: warning
+
+production:
+  adapter: postgresql
+  database: better_twitter_prod
+  username: 
+  password:
+  host: localhost
+  
+cucumber:
+  <<: *TEST
